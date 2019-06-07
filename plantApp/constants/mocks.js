@@ -4,42 +4,42 @@ const categories = [
         name: 'Plants',
         tags: ['products', 'shop'],
         count: 147,
-        image: require('../assets/images/plants.png')
+        image: require('../assets/icons/plants.png')
     },
     {
         id: 'seeds',
         name: 'Seeds',
         tags: ['products', 'shop'],
         count: 15,
-        image: require('../assets/images/seeds.png')
+        image: require('../assets/icons/seeds.png')
     },
     {
         id: 'flowers',
         name: 'Flowers',
         tags: ['products', 'inspirations'],
         count: 50,
-        image: require('../assets/images/flowers.png')
+        image: require('../assets/icons/flowers.png')
     },
     {
         id: 'sprayers',
         name: 'sprayers',
         tags: ['products', 'inspirations'],
         count: 10,
-        image: require('../assets/images/sprayers.png')
+        image: require('../assets/icons/sprayers.png')
     },
     {
         id: 'pots',
         name: 'pots',
         tags: ['inspirations', 'shop'],
         count: 14,
-        image: require('../assets/images/pots.png')
+        image: require('../assets/icons/pots.png')
     },
     {
         id: 'fertilizers',
         name: 'Fertilizers',
         tags: ['products', 'shop'],
         count: 100,
-        image: require('../assets/images/fertilizers.png')
+        image: require('../assets/icons/fertilizers.png')
     },
 
 ];
@@ -86,5 +86,6 @@ const profile = {
 export {
     categories,
     products,
-    profile
+    profile,
+    explore
 }

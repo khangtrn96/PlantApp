@@ -12,7 +12,7 @@ import Welcome from '../screens/Welcome';
 
 import { theme } from '../constants';
 
-const screens = createStackNavigator({
+const AppNavigator = createStackNavigator({
     Welcome,
     // Explore,
     // Login,
@@ -28,4 +28,5 @@ const screens = createStackNavigator({
         headerRightContainerStyle: {}
     }
 });
-export default createAppContainer(screen);
+
+export default createAppContainer(AppNavigator);
